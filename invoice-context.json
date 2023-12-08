@@ -5,7 +5,6 @@
     },
     "https://www.w3.org/ns/odrl.jsonld",
     {
-      "id": "@id",
       "name": "xsd:string",
       "date": "xsd:string",
       "customerId": "xsd:string",
