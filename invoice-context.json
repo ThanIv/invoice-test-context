@@ -6,7 +6,7 @@
     "https://www.w3.org/ns/odrl.jsonld",
     {
       "billFrom": {
-        "@id": "https://schemata.openattestation.com/vocab/#billFrom",
+        "@id": "billFrom",
         "@context": {
           "name": "xsd:string",
           "streetAddress": "xsd:string",
