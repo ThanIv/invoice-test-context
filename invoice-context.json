@@ -11,7 +11,7 @@
       "subtotal": "xsd:string",
       "tax": "xsd:string",
       "billFrom": {
-        "@id": "billFrom",
+        "@id": "https://schemata.openattestation.com/vocab/#billFrom",
         "@context": {
           "name": "xsd:string",
           "streetAddress": "xsd:string",
@@ -21,11 +21,11 @@
         }
       },
       "billTo": {
-        "@id": "billTo",
+        "@id": "https://schemata.openattestation.com/vocab/#billTo",
         "@context": {
           "name": "xsd:string",
           "company": {
-            "@id": "company",
+            "@id": "https://schemata.openattestation.com/vocab/#company",
             "@context": {
               "name": "xsd:string",
               "streetAddress": "xsd:string",
@@ -38,7 +38,7 @@
         }
       },
       "billableItems": {
-        "@id": "billableItems",
+        "@id": "https://schemata.openattestation.com/vocab/#billableItems",
         "@container": "@set",
         "@context": {
           "description": "xsd:string",
