@@ -5,14 +5,11 @@
     },
     "https://www.w3.org/ns/odrl.jsonld",
     {
-      "name": "xsd:string",
       "date": "xsd:string",
       "customerId": "xsd:string",
       "terms": "xsd:string",
       "subtotal": "xsd:string",
       "tax": "xsd:string",
-      "taxTotal": "xsd:string",
-      "total": "xsd:string",
       "billFrom": {
         "@id": "billFrom",
         "@context": {
