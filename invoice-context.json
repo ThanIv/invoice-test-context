@@ -5,6 +5,10 @@
     },
     "https://www.w3.org/ns/odrl.jsonld",
     {
+      "subtotal": "xsd:string",
+      "tax": "xsd:string",
+      "taxTotal": "xsd:string",
+      "total": "xsd:string",
       "billFrom": {
         "@id": "https://schemata.openattestation.com/vocab/#billFrom",
         "@context": {
